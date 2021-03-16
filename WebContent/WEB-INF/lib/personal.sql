@@ -1,0 +1,40 @@
+CREATE DATABASE personer
+GO
+USE personer 
+GO
+CREATE TABLE users (
+username NVARCHAR(50) PRIMARY KEY,
+pass NVARCHAR(50) NOT NULL,
+fullname NVARCHAR(50) NOT NULL
+)
+CREATE TABLE departs(
+id NVARCHAR(10) PRIMARY KEY ,
+name NVARCHAR(50) NOT NULL
+)
+ CREATE TABLE staffs(
+ id NVARCHAR(10) PRIMARY KEY,
+ name NVARCHAR(50) NOT NULL,
+ gender BIT NOT NULL,
+ birthday DATE NOT NULL,
+ photo NVARCHAR(50),
+ email NVARCHAR(50) NOT NULL,
+ phone NVARCHAR(50) NOT NULL,
+ salary FLOAT NOT NULL,
+ notes NVARCHAR(500) NULL,
+ departid NVARCHAR(10) FOREIGN KEY REFERENCES dbo.departs(id)
+ 
+ )
+ CREATE TABLE records(
+ id BIGINT PRIMARY KEY IDENTITY,
+ type BIT NOT NULL,
+ reason NVARCHAR(200) NOT NULL,
+ date DATE NOT NULL,
+ staffid NVARCHAR(10) FOREIGN KEY REFERENCES dbo.staffs(id)
+ )
+
+ SELECT * FROM dbo.users
+ SELECT * FROM dbo.departs
+  SELECT * FROM dbo.records
+   SELECT * FROM dbo.staffs
+
+ ALTER TABLE dbo.users ADD role BIT 

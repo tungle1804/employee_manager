@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutoTest" verbose = "1">
+  <test name= "AddStaff">
+  	<classes>
+  		<class name="AutomationTest.IDTest"></class>
+	<class name="AutomationTest.EmailTest"></class>
+		<class name="AutomationTest.BirthdayTest"></class>
+			<class name="AutomationTest.NameTest"></class>
+				<class name="AutomationTest.NoteTest"></class>
+					<class name="AutomationTest.PhoneTest"></class>
+  	</classes>
+  </test>
+</suite>

@@ -1,0 +1,1193 @@
+<html>
+<head>
+<title>TestNG:  AddStaff</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AddStaff</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>78/16/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 10 10:00:22 ICT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>382 seconds (382636 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_18()'><b>Add_18</b><br>Test class: AutomationTest.NameTest<br>Test method: Không nh?p ten nhan vien</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.NameTest.Add_18(NameTest.java:79)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace947868623", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace947868623'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.NameTest.Add_18(NameTest.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_31()'><b>Add_31</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên có 2 ký t?</td>
+<td><div><pre>java.lang.AssertionError: L?i: Không nh?p tên v?n h?p l?
+	at AutomationTest.NameTest.Add_31(NameTest.java:290)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace146103376", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace146103376'><pre>java.lang.AssertionError: L?i: Không nh?p tên v?n h?p l?
+	at org.testng.Assert.fail(Assert.java:99)
+	at AutomationTest.NameTest.Add_31(NameTest.java:290)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_32()'><b>Add_32</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên có 49 ký t?</td>
+<td><div><pre>java.lang.AssertionError: L?i: Không nh?p tên v?n h?p l?
+	at AutomationTest.NameTest.Add_32(NameTest.java:303)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace224888598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace224888598'><pre>java.lang.AssertionError: L?i: Không nh?p tên v?n h?p l?
+	at org.testng.Assert.fail(Assert.java:99)
+	at AutomationTest.NameTest.Add_32(NameTest.java:303)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_33()'><b>Add_33</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên có 50 ký t?</td>
+<td><div><pre>java.lang.AssertionError: L?i: Không nh?p tên v?n h?p l?
+	at AutomationTest.NameTest.Add_33(NameTest.java:316)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1283693885", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1283693885'><pre>java.lang.AssertionError: L?i: Không nh?p tên v?n h?p l?
+	at org.testng.Assert.fail(Assert.java:99)
+	at AutomationTest.NameTest.Add_33(NameTest.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_34()'><b>Add_34</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên có 51 ký t?</td>
+<td><div><pre>java.lang.AssertionError: L?i: Không nh?p tên v?n h?p l?
+	at AutomationTest.NameTest.Add_34(NameTest.java:329)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1066104222", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1066104222'><pre>java.lang.AssertionError: L?i: Không nh?p tên v?n h?p l?
+	at org.testng.Assert.fail(Assert.java:99)
+	at AutomationTest.NameTest.Add_34(NameTest.java:329)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_36()'><b>Add_36</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh v?i ch? th??ng không d?u</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_36(BirthdayTest.java:69)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace52356521", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace52356521'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_36(BirthdayTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_37()'><b>Add_37</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh v?i ch? hoa không d?u</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_37(BirthdayTest.java:84)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace337245955", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace337245955'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_37(BirthdayTest.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_38()'><b>Add_38</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh v?i ch? th??ng có d?u</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_38(BirthdayTest.java:99)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1350616078", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1350616078'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_38(BirthdayTest.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_39()'><b>Add_39</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh v?i ch? hoa có d?u</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_39(BirthdayTest.java:114)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1478689316", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1478689316'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_39(BirthdayTest.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_41()'><b>Add_41</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh v?i ch? th??ng không d?u và s?</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_41(BirthdayTest.java:144)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1807529631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1807529631'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_41(BirthdayTest.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_42()'><b>Add_42</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh v?i ch? hoa không d?u và s?</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_42(BirthdayTest.java:160)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace695213855", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace695213855'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_42(BirthdayTest.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_43()'><b>Add_43</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh v?i ch? th??ng có d?u và s?</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_43(BirthdayTest.java:176)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1480046593", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1480046593'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_43(BirthdayTest.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_44()'><b>Add_44</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh v?i ch? hoa có d?u và s?</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_44(BirthdayTest.java:192)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace305691769", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace305691769'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_44(BirthdayTest.java:192)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_45()'><b>Add_45</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh ch? ch?a ký t? ??c bi?t</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_45(BirthdayTest.java:208)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1258413350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1258413350'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_45(BirthdayTest.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_46()'><b>Add_46</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh ch? ch?a ký t? kho?ng tr?ng</td>
+<td><div><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at AutomationTest.BirthdayTest.Add_46(BirthdayTest.java:223)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace181045667", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace181045667'><pre>java.lang.AssertionError: expected [Please fill out this field.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.BirthdayTest.Add_46(BirthdayTest.java:223)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_90()'><b>Add_90</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i sai ??nh d?ng</td>
+<td><div><pre>java.lang.AssertionError: expected [Please match the requested format.] but found []
+	at AutomationTest.PhoneTest.Add_90(PhoneTest.java:340)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace391669093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace391669093'><pre>java.lang.AssertionError: expected [Please match the requested format.] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at AutomationTest.PhoneTest.Add_90(PhoneTest.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_01()'><b>Add_01</b><br>Test class: AutomationTest.IDTest<br>Test method: Không nh?p mã nhân viên</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_02()'><b>Add_02</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên v?i ch? th??ng không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_03()'><b>Add_03</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên v?i ch? hoa không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_04()'><b>Add_04</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên v?i ch? th??ng có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_05()'><b>Add_05</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên v?i ch? hoa có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_06()'><b>Add_06</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên v?i s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_07()'><b>Add_07</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên v?i ch? th??ng không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_08()'><b>Add_08</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên v?i ch? hoa không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_09()'><b>Add_09</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên v?i ch? th??ng có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_10()'><b>Add_10</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên v?i ch? hoa có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_100()'><b>Add_100</b><br>Test class: AutomationTest.NoteTest<br>Test method: Nh?p Note v?i ch? hoa có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_11()'><b>Add_11</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên có ký t? ??c bi?t</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_12()'><b>Add_12</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên ch? ch?a ký t? kho?ng tr?ng</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_13()'><b>Add_13</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên có 1 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_14()'><b>Add_14</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên có 2 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_15()'><b>Add_15</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên có 9 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_16()'><b>Add_16</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên có 10 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.IDTest.Add_17()'><b>Add_17</b><br>Test class: AutomationTest.IDTest<br>Test method: Nh?p mã nhân viên có 11 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.IDTest@79efed2d</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_19()'><b>Add_19</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên v?i ch? th??ng không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_20()'><b>Add_20</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên v?i ch? hoa không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_21()'><b>Add_21</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên v?i ch? th??ng có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_22()'><b>Add_22</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên v?i ch? hoa có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_23()'><b>Add_23</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên v?i s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_24()'><b>Add_24</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên v?i ch? th??ng không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_25()'><b>Add_25</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên v?i ch? hoa không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_26()'><b>Add_26</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên v?i ch? th??ng có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_27()'><b>Add_27</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên v?i ch? hoa có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_28()'><b>Add_28</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên có ký t? ??c bi?t</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_29()'><b>Add_29</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên ch? ch?a ký t? kho?ng tr?ng</td>
+<td></td>
+<td>2</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.NameTest.Add_30()'><b>Add_30</b><br>Test class: AutomationTest.NameTest<br>Test method: Nh?p tên nhân viên có 1 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NameTest@2928854b</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_35()'><b>Add_35</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Không nh?p ngày sinh</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.BirthdayTest.Add_40()'><b>Add_40</b><br>Test class: AutomationTest.BirthdayTest<br>Test method: Nh?p ngày sinh v?i s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.BirthdayTest@29176cc1</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_53()'><b>Add_53</b><br>Test class: AutomationTest.EmailTest<br>Test method: Không nh?p email</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_54()'><b>Add_54</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email v?i ch? th??ng không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_55()'><b>Add_55</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email v?i ch? hoa không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_56()'><b>Add_56</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email v?i ch? th??ng có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_57()'><b>Add_57</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email v?i ch? hoa có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_58()'><b>Add_58</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email v?i s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_59()'><b>Add_59</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email v?i ch? th??ng không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_60()'><b>Add_60</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email v?i ch? hoa không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_61()'><b>Add_61</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email v?i ch? th??ng có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_62()'><b>Add_62</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email v?i ch? hoa có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_63()'><b>Add_63</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email có ký t? ??c bi?t</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_64()'><b>Add_64</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email ch? ch?a ký t? kho?ng tr?ng</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_65()'><b>Add_65</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email có 6 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_66()'><b>Add_66</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email có 7 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_67()'><b>Add_67</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email có 49 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_68()'><b>Add_68</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email có 50 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_69()'><b>Add_69</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email có 51 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.EmailTest.Add_70()'><b>Add_70</b><br>Test class: AutomationTest.EmailTest<br>Test method: Nh?p email sai ??nh d?ng</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.EmailTest@27ae2fd0</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_71()'><b>Add_71</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Không nh?p s? ?i?n tho?i</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_72()'><b>Add_72</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i v?i ch? th??ng không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_73()'><b>Add_73</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i v?i ch? hoa không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_74()'><b>Add_74</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i v?i ch? th??ng có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_75()'><b>Add_75</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i v?i ch? hoa có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_76()'><b>Add_76</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i v?i s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_77()'><b>Add_77</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i v?i ch? th??ng không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_78()'><b>Add_78</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i v?i ch? hoa không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_79()'><b>Add_79</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i v?i ch? th??ng có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_80()'><b>Add_80</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i v?i ch? hoa có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_81()'><b>Add_81</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i ch? ch?a ký t? ??c bi?t</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_82()'><b>Add_82</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i ch? ch?a ký t? kho?ng tr?ng</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_83()'><b>Add_83</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i có 5 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_84()'><b>Add_84</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i có 6 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_85()'><b>Add_85</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i có 7 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_86()'><b>Add_86</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i có 10 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_87()'><b>Add_87</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i có 11 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_88()'><b>Add_88</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i có 12 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.PhoneTest.Add_89()'><b>Add_89</b><br>Test class: AutomationTest.PhoneTest<br>Test method: Nh?p s? ?i?n tho?i có 13 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.PhoneTest@4278a03f</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_91()'><b>Add_91</b><br>Test class: AutomationTest.NoteTest<br>Test method: Không nh?p Note</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_92()'><b>Add_92</b><br>Test class: AutomationTest.NoteTest<br>Test method: Nh?p Note v?i ch? th??ng không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_93()'><b>Add_93</b><br>Test class: AutomationTest.NoteTest<br>Test method: Nh?p Note v?i ch? hoa không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_94()'><b>Add_94</b><br>Test class: AutomationTest.NoteTest<br>Test method: Nh?p Note v?i ch? th??ng có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_95()'><b>Add_95</b><br>Test class: AutomationTest.NoteTest<br>Test method: Nh?p Note v?i ch? hoa có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_96()'><b>Add_96</b><br>Test class: AutomationTest.NoteTest<br>Test method: Nh?p Note v?i s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_97()'><b>Add_97</b><br>Test class: AutomationTest.NoteTest<br>Test method: Nh?p Note v?i ch? th??ng không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_98()'><b>Add_98</b><br>Test class: AutomationTest.NoteTest<br>Test method: Nh?p Note v?i ch? hoa không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+<tr>
+<td title='AutomationTest.NoteTest.Add_99()'><b>Add_99</b><br>Test class: AutomationTest.NoteTest<br>Test method: Nh?p Note v?i ch? th??ng có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTest.NoteTest@2f177a4b</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,1662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="20" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="createSalary" duration-ms="7487" started-at="2021-03-10T18:38:42 ICT" finished-at="2021-03-10T18:38:49 ICT">
+    <groups>
+    </groups>
+    <test name="Add_01" duration-ms="4260" started-at="2021-03-10T18:38:42 ICT" finished-at="2021-03-10T18:38:46 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2021-03-10T18:38:42 ICT" finished-at="2021-03-10T18:38:42 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:42 ICT" finished-at="2021-03-10T18:38:42 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3918" started-at="2021-03-10T18:38:42 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="insertSalary" duration-ms="217" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="tearDown" is-config="true" duration-ms="29" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@11a9e7c8]" name="tearDownAfterClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_01 -->
+    <test name="Add_02" duration-ms="480" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:46 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="insertSalary" duration-ms="158" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tunganhle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="tearDown" is-config="true" duration-ms="314" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@56de5251]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_02 -->
+    <test name="Add_03" duration-ms="126" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:47 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:46 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="insertSalary" duration-ms="72" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:46 ICT" finished-at="2021-03-10T18:38:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="tearDown" is-config="true" duration-ms="41" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@5dd6264]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_03 -->
+    <test name="Add_04" duration-ms="127" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="setUp" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="insertSalary" duration-ms="69" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="tearDown" is-config="true" duration-ms="49" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@6d2a209c]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_04 -->
+    <test name="Add_05" duration-ms="186" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2" started-at="2021-03-10T18:38:47 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="insertSalary" duration-ms="131" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="tearDown" is-config="true" duration-ms="46" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@49c386c8]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_05 -->
+    <test name="Add_06" duration-ms="202" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="insertSalary" duration-ms="109" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tunganhle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="tearDown" is-config="true" duration-ms="86" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@3cc2931c]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_06 -->
+    <test name="Add_07" duration-ms="186" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="insertSalary" duration-ms="59" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tunganhle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="tearDown" is-config="true" duration-ms="120" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@4b14c583]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_07 -->
+    <test name="Add_08" duration-ms="310" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:48 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:47 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="insertSalary" duration-ms="165" started-at="2021-03-10T18:38:47 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tunganhle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="tearDown" is-config="true" duration-ms="134" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@2f7c2f4f]" name="tearDownAfterClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_08 -->
+    <test name="Add_09" duration-ms="160" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="insertSalary" duration-ms="81" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="tearDown" is-config="true" duration-ms="72" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@78b66d36]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_09 -->
+    <test name="Add_10" duration-ms="151" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="insertSalary" duration-ms="113" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="tearDown" is-config="true" duration-ms="27" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="tearDownAfterClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@35047d03]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_10 -->
+    <test name="Add_11" duration-ms="79" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="insertSalary" duration-ms="45" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="tearDown" is-config="true" duration-ms="29" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@3d680b5a]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_11 -->
+    <test name="Add_12" duration-ms="113" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="insertSalary" duration-ms="48" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="tearDown" is-config="true" duration-ms="60" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@63021689]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_12 -->
+    <test name="Add_13" duration-ms="213" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="insertSalary" duration-ms="47" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ttttttttttttttttttt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="tearDown" is-config="true" duration-ms="160" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@5a63f509]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_13 -->
+    <test name="Add_14" duration-ms="162" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:49 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:48 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="insertSalary" duration-ms="80" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tttttttttttttttttttt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:48 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="tearDown" is-config="true" duration-ms="77" started-at="2021-03-10T18:38:48 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@57c758ac]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_14 -->
+    <test name="Add_15" duration-ms="250" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="insertSalary" duration-ms="202" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ttttttttttttttttttttt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="tearDown" is-config="true" duration-ms="43" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@9353778]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_15 -->
+    <test name="Add_16" duration-ms="141" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="insertSalary" duration-ms="57" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="tearDown" is-config="true" duration-ms="75" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@6ca8564a]" name="tearDownAfterClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_16 -->
+    <test name="Add_17" duration-ms="170" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="insertSalary" duration-ms="49" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#@#@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="tearDown" is-config="true" duration-ms="115" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UnitTest.SalaryDAOTest.insertSalary(java.lang.String,float,float,float,boolean) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@4f209819]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_17 -->
+    <test name="Add_18" duration-ms="11" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@3d51f06e]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@3d51f06e]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@3d51f06e]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="FAIL" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@3d51f06e]" name="insertSalary" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Conversion issue on parameter: basic_salary]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Conversion issue on parameter: basic_salary
+at org.testng.internal.Parameters.convertType(Parameters.java:531)
+at org.testng.internal.Parameters.createParams(Parameters.java:271)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: "tung"
+at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+at sun.misc.FloatingDecimal.parseFloat(Unknown Source)
+at java.lang.Float.parseFloat(Unknown Source)
+at java.lang.Float.valueOf(Unknown Source)
+at org.testng.internal.Parameters.convertType(Parameters.java:519)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@3d51f06e]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@3d51f06e]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_18 -->
+    <test name="Add_19" duration-ms="5" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@2c767a52]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@2c767a52]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@2c767a52]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="FAIL" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@2c767a52]" name="insertSalary" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Conversion issue on parameter: salary_factor]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Conversion issue on parameter: salary_factor
+at org.testng.internal.Parameters.convertType(Parameters.java:531)
+at org.testng.internal.Parameters.createParams(Parameters.java:271)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: "tung"
+at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+at sun.misc.FloatingDecimal.parseFloat(Unknown Source)
+at java.lang.Float.parseFloat(Unknown Source)
+at java.lang.Float.valueOf(Unknown Source)
+at org.testng.internal.Parameters.convertType(Parameters.java:519)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@2c767a52]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@2c767a52]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_19 -->
+    <test name="Add_20" duration-ms="4" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+      <class name="UnitTest.SalaryDAOTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:UnitTest.SalaryDAOTest@16ec5519]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@16ec5519]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:UnitTest.SalaryDAOTest@16ec5519]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="FAIL" signature="insertSalary(java.lang.String, float, float, float, boolean)[pri:0, instance:UnitTest.SalaryDAOTest@16ec5519]" name="insertSalary" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Conversion issue on parameter: allowance]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Conversion issue on parameter: allowance
+at org.testng.internal.Parameters.convertType(Parameters.java:531)
+at org.testng.internal.Parameters.createParams(Parameters.java:271)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: "tung"
+at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+at sun.misc.FloatingDecimal.parseFloat(Unknown Source)
+at java.lang.Float.parseFloat(Unknown Source)
+at java.lang.Float.valueOf(Unknown Source)
+at org.testng.internal.Parameters.convertType(Parameters.java:519)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSalary -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:UnitTest.SalaryDAOTest@16ec5519]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:UnitTest.SalaryDAOTest@16ec5519]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2021-03-10T18:38:49 ICT" finished-at="2021-03-10T18:38:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </test> <!-- Add_20 -->
+  </suite> <!-- createSalary -->
+</testng-results>

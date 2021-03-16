@@ -1,0 +1,106 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+<body>
+<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Thêm mới quan hệ</h4>
+			<p class="card-description">Vui lòng điền thông tin</p>
+			<form:form  action="admin/add-dependent.htm"  modelAttribute="dependent"     >
+				<div class="form-group" style="margin-top: 20px">
+					<label for="exampleInputName1"> ID</label>
+					<form:input path="id" type="text" class="form-control"
+						id="exampleInputCode" placeholder="Code" />
+				</div>
+				 <form:errors
+						style="color: red;
+    font-size: 13px;
+    margin-top: 15px;"
+						path="id" />
+				<div class="form-group" style="margin-top: 20px">
+					<label for="exampleInputEmail3"> Name</label>
+					<form:input path="name" type="text" class="form-control"
+						id="exampleInputName" placeholder="Name" />
+				</div>
+ <form:errors
+						style="color: red;
+    font-size: 13px;
+    margin-top: 15px;"
+						path="name" />
+				  <div class="form-group" style="margin-top: 20px">
+					<label for="exampleInputEmail3">Employee</label>
+					<form:select path="staff.id"  class="form-control"
+						>
+						<form:options items="${liststaff}" itemLabel="name" itemValue="id" />
+							</form:select>
+
+					
+				</div> 
+				
+				<div class="form-group row" style="margin-top: 20px">
+					<label class="col-sm-3 col-form-label">Gender</label>
+					<div class="col-sm-4">
+						<div class="form-check">
+							<label class="form-check-label"> <form:radiobutton
+									class="form-check-input" name="membershipRadios"
+									id="membershipRadios1" value="0" path="gender" /> Fermale <i
+								class="input-helper"></i></label>
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<div class="form-check">
+							<label class="form-check-label"> <form:radiobutton
+									class="form-check-input" name="membershipRadios"
+									id="membershipRadios2" value="1" path="gender" /> Male <i
+								class="input-helper"></i></label>
+						</div>
+					</div>
+				</div>
+				<!--     <div class="form-group"> -->
+				
+				<!-- <div class="input-group col-xs-12"> -->
+				<!--     <input type="file" class="form-control file-upload-info"   placeholder="Upload Image"> -->
+				<!--   <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-gradient-primary" type="button">Upload</button>
+                          </span> -->
+				<!--   </div> -->
+				<!--      </div> -->
+				<div class="form-group" style="margin-top: 20px">
+					<label for="exampleInputCity1">Birthday</label>
+					<form:input path="birthday" type="text" class="form-control"
+						placeholder="dd/mm/yyyy" />
+				</div>
+				
+				
+				
+				<div class="form-group" style="margin-top: 20px">
+					<label for="exampleTextarea1">Relationship</label>
+					<form:textarea path="relationship" class="form-control"
+						id="exampleTextarea1" rows="4"/>
+				</div>
+				 <form:errors
+						style="color: red;
+    font-size: 13px;
+    margin-top: 15px;"
+						path="relationship" />
+						<div class="form-group" style="margin-top: 20px">
+				<form:button type="submit" class="btn btn-gradient-primary mr-2" 	>Thêm</form:button> 
+				<button class="btn btn-light">Cancel</button>
+				</div>
+			</form:form>
+
+		</div>
+	</div>
+	    <script type="text/javascript">	
+	window.setTimeout(function() {
+	    $("#alert").fadeTo(1000, 0).slideUp(1000);
+	}, 4000);	
+	</script>
+</body>
+</html>

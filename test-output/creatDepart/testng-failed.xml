@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [creatDepart]">
+  <test thread-count="5" name="InsertDepart(failed)">
+    <classes>
+      <class name="UnitTest.DepartmentDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="Add_19"/>
+          <include name="tearDownAfterClass"/>
+          <include name="Add_05"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="setUpBeforeClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Add_10"/>
+          <include name="Add_21"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="Add_11"/>
+          <include name="Add_12"/>
+          <include name="Add_20"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- UnitTest.DepartmentDAOTest -->
+    </classes>
+  </test> <!-- InsertDepart(failed) -->
+</suite> <!-- Failed suite [creatDepart] -->

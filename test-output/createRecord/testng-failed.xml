@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [createRecord]">
+  <test thread-count="5" name="Add_07(failed)">
+    <parameter name="date" value="12-12-2000"/>
+    <parameter name="reason" value="ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt"/>
+    <parameter name="expected" value="true"/>
+    <classes>
+      <class name="UnitTest.RecordDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="inserRecord" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="setUp"/>
+          <include name="tearDownAfterClass"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- UnitTest.RecordDAOTest -->
+    </classes>
+  </test> <!-- Add_07(failed) -->
+</suite> <!-- Failed suite [createRecord] -->

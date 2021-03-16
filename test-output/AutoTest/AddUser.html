@@ -1,0 +1,344 @@
+<html>
+<head>
+<title>TestNG:  AddUser</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AddUser</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>53/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 10 10:06:45 ICT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>132 seconds (132253 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_01()'><b>Add_01</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Không nh?p username</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_02()'><b>Add_02</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ch? th??ng không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_03()'><b>Add_03</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ch? hoa không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_04()'><b>Add_04</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ch? th??ng có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_05()'><b>Add_05</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ch? hoa có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_06()'><b>Add_06</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_07()'><b>Add_07</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ch? th??ng không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_08()'><b>Add_08</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ch? hoa không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_09()'><b>Add_09</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ch? th??ng có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_10()'><b>Add_10</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ch? hoa có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_11()'><b>Add_11</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ký t? ??c bi?t</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_12()'><b>Add_12</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i ký t? kho?ng tr?ng</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_13()'><b>Add_13</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i 1 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_14()'><b>Add_14</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i 2 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_15()'><b>Add_15</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i 49 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_16()'><b>Add_16</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i 50 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_17()'><b>Add_17</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username v?i 51 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_18()'><b>Add_18</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username b? trùng</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.UsernameTest.Add_19()'><b>Add_19</b><br>Test class: AutomationTestUser.UsernameTest<br>Test method: Nh?p username thành công</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.UsernameTest@7f010382</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_20()'><b>Add_20</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Không nh?p fullanme</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_20()'><b>Add_20</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Không nh?p pass</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_21()'><b>Add_21</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i ch? th??ng không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_22()'><b>Add_22</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i ch? hoa không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_23()'><b>Add_23</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i ch? th??ng có d?u </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_24()'><b>Add_24</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i ch? hoa có d?u </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_25()'><b>Add_25</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i s? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_26()'><b>Add_26</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i ch? th??ng không d?u và s? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_27()'><b>Add_27</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i ch? hoa không d?u và s? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_28()'><b>Add_28</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i ch? th??ng có d?u và s? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_29()'><b>Add_29</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i ch? hoa có d?u và s? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_30()'><b>Add_30</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i ký t? ??c bi?t </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_31()'><b>Add_31</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i kho?ng tr?ng </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_32()'><b>Add_32</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i 1 ký t? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_33()'><b>Add_33</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i 2 ký t? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_34()'><b>Add_34</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i 49 ký t? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_35()'><b>Add_35</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i 50 ký t? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.FullnameTest.Add_36()'><b>Add_36</b><br>Test class: AutomationTestUser.FullnameTest<br>Test method: Nh?p fullname v?i 51 ký t? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.FullnameTest@161479c6</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_38()'><b>Add_38</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ch? th??ng không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_39()'><b>Add_39</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ch? hoa không d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_40()'><b>Add_40</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ch? th??ng có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_41()'><b>Add_41</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ch? hoa có d?u</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_42()'><b>Add_42</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_43()'><b>Add_43</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ch? th??ng không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_44()'><b>Add_44</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ch? hoa không d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_45()'><b>Add_45</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ch? th??ng có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_46()'><b>Add_46</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ch? hoa có d?u và s?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_47()'><b>Add_47</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ký t? ??c bi?t</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_48()'><b>Add_48</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i ký kho?ng tr?ng</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_49()'><b>Add_49</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i 1 ký t? </td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_50()'><b>Add_50</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i 2 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_51()'><b>Add_51</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i 49 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_52()'><b>Add_52</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i 50 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+<tr>
+<td title='AutomationTestUser.PasswordTest.Add_53()'><b>Add_53</b><br>Test class: AutomationTestUser.PasswordTest<br>Test method: Nh?p pass v?i 51 ký t?</td>
+<td></td>
+<td>1</td>
+<td>AutomationTestUser.PasswordTest@4313f5bc</td></tr>
+</table><p>
+</body>
+</html>

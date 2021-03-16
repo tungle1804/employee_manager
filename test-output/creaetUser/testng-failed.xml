@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [creaetUser]">
+  <test thread-count="5" name="Add_17(failed)">
+    <parameter name="password" value="tung123"/>
+    <parameter name="expected" value="true"/>
+    <parameter name="fullname" value="ttttttttttttttttttttttttttttttttttttttttttttttttttt"/>
+    <parameter name="username" value="tunganhle"/>
+    <classes>
+      <class name="UnitTest.UserDAOTest">
+        <methods>
+          <include name="insertUser" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDown"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- UnitTest.UserDAOTest -->
+    </classes>
+  </test> <!-- Add_17(failed) -->
+  <test thread-count="5" name="Add_18(failed)">
+    <parameter name="password" value="tung123"/>
+    <parameter name="expected" value="true"/>
+    <parameter name="fullname" value="tttttttttttttttttttttttttttttttttttttttttttttttttttt"/>
+    <parameter name="username" value="tunganhle"/>
+    <classes>
+      <class name="UnitTest.UserDAOTest">
+        <methods>
+          <include name="insertUser" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDown"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- UnitTest.UserDAOTest -->
+    </classes>
+  </test> <!-- Add_18(failed) -->
+  <test thread-count="5" name="Add_23(failed)">
+    <parameter name="password" value="ttttttttttttttttttttttttttttttttttttttttttttttttttt"/>
+    <parameter name="expected" value="true"/>
+    <parameter name="fullname" value="tung123"/>
+    <parameter name="username" value="tunganhle"/>
+    <classes>
+      <class name="UnitTest.UserDAOTest">
+        <methods>
+          <include name="insertUser" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDown"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- UnitTest.UserDAOTest -->
+    </classes>
+  </test> <!-- Add_23(failed) -->
+  <test thread-count="5" name="Add_24(failed)">
+    <parameter name="password" value="tttttttttttttttttttttttttttttttttttttttttttttttttttt"/>
+    <parameter name="expected" value="true"/>
+    <parameter name="fullname" value="tung123"/>
+    <parameter name="username" value="tunganhle"/>
+    <classes>
+      <class name="UnitTest.UserDAOTest">
+        <methods>
+          <include name="insertUser" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDown"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- UnitTest.UserDAOTest -->
+    </classes>
+  </test> <!-- Add_24(failed) -->
+</suite> <!-- Failed suite [creaetUser] -->

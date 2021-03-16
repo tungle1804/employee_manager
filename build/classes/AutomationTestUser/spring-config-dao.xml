@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   		http://www.springframework.org/schema/beans/spring-beans.xsd
+	   		http://www.springframework.org/schema/context
+	   		http://www.springframework.org/schema/context/spring-context.xsd
+	   		http://www.springframework.org/schema/tx 
+			http://www.springframework.org/schema/tx/spring-tx.xsd
+			http://www.springframework.org/schema/mvc 
+			http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<bean id="DepartmentDAO"
+		class="poly.dao.impl.DepartmentDAOImpl"> 
+		<property name="factory" ref="mysessionFactory" />
+	</bean>
+<bean id="StaffDAO"
+		class="poly.dao.impl.StaffDAOImpl">
+		<property name="factory" ref="mysessionFactory" />
+	</bean> 
+	<bean id="UserDAO"
+		class="poly.dao.impl.UserDAOImpl">
+		<property name="factory" ref="mysessionFactory" />
+	</bean>
+	<bean id="SalaryDAO"
+		class="poly.dao.impl.SalaryDAOImpl">
+		<property name="factory" ref="mysessionFactory" />
+	</bean>
+	<bean id="AchievementDAO"
+		class="poly.dao.impl.AchievementDAOImpl">
+		<property name="factory" ref="mysessionFactory" />
+	</bean>
+	<bean id="DependentDAO"
+		class="poly.dao.impl.DependentDAOImpl">
+		<property name="factory" ref="mysessionFactory" />
+	</bean>
+	
+
+</beans>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [createUser]">
+  <test thread-count="5" name="InsertUser(failed)">
+    <classes>
+      <class name="UnitTest.UserDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="insertUser5" invocation-numbers="0"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDown"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- UnitTest.UserDAOTest -->
+    </classes>
+  </test> <!-- InsertUser(failed) -->
+</suite> <!-- Failed suite [createUser] -->

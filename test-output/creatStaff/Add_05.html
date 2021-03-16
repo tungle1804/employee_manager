@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>TestNG:  Add_05</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Add_05</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 24 18:55:09 ICT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4784 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff()'><b>insertStaff</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: M001, sss, 12-12-2000, tunglaph09448@fpt.edu.vn, 0856554123, 3.jpg, true</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff0()'><b>insertStaff0</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , , tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff1()'><b>insertStaff1</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , , tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff10()'><b>insertStaff10</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: M001, , , tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff11()'><b>insertStaff11</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: M001, , , tunglaph09448@fpt.edu.vn, 0896354785, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff12()'><b>insertStaff12</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: M001, , , tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff13()'><b>insertStaff13</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , Le Anh Tung, 2000-12-12, tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff14()'><b>insertStaff14</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , Le Anh Tung, , tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff15()'><b>insertStaff15</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , Le Anh Tung, , tunglaph09448@fpt.edu.vn, 0987654345, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff16()'><b>insertStaff16</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , Le Anh Tung, , tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff17()'><b>insertStaff17</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , 2000-12-12, tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff18()'><b>insertStaff18</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , 2000-12-12, tunglaph09448@fpt.edu.vn, 0985463124, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff19()'><b>insertStaff19</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , 2000-12-12, tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff2()'><b>insertStaff2</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: M001, , , tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff20()'><b>insertStaff20</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , , tunglaph09448@fpt.edu.vn, 0987654323, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff21()'><b>insertStaff21</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , , tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff22()'><b>insertStaff22</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , , tunglaph09448@fpt.edu.vn, 0987654324, 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff23()'><b>insertStaff23</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: K001, Le Anh Tùng, 12-12-2000, tunglaph09448@fpt.edu.vn, , , true</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff24()'><b>insertStaff24</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: K001, Le Anh Tùng, , tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff25()'><b>insertStaff25</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: K001, Le Anh Tùng, , tunglaph09448@fpt.edu.vn, 0987423874, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff26()'><b>insertStaff26</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: K001, Le Anh Tùng, , tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff27()'><b>insertStaff27</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , Le Anh Tùng, 2000-12-12, tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff28()'><b>insertStaff28</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , Le Anh Tùng, 2000-12-12, tunglaph09448@fpt.edu.vn, 0985236547, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff29()'><b>insertStaff29</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , Le Anh Tùng, 2000-12-12, tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff3()'><b>insertStaff3</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , Le Anh Tung, , tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff30()'><b>insertStaff30</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , 2000-12-12, tunglaph09448@fpt.edu.vn, 0987542345, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff31()'><b>insertStaff31</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , 2000-12-12, tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff32()'><b>insertStaff32</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , , tunglaph09448@fpt.edu.vn, 0985365124, 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff33()'><b>insertStaff33</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, 2000-12-12, tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff34()'><b>insertStaff34</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, 2000-12-12, tunglaph09448@fpt.edu.vn, 0985635142, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff35()'><b>insertStaff35</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, 2000-12-12, tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff36()'><b>insertStaff36</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, , tunglaph09448@fpt.edu.vn, 08745214144, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff37()'><b>insertStaff37</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, , tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff38()'><b>insertStaff38</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, , tunglaph09448@fpt.edu.vn, 0987654567, 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff39()'><b>insertStaff39</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, , 2000-12-12, tunglaph09448@fpt.edu.vn, 0987654567, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff4()'><b>insertStaff4</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , 2000-12-12, tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff40()'><b>insertStaff40</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, , 2000-12-12, tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff41()'><b>insertStaff41</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, , 2000-12-12, tunglaph09448@fpt.edu.vn, 0865235412, 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff42()'><b>insertStaff42</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, , , tunglaph09448@fpt.edu.vn, 0865235412, 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff43()'><b>insertStaff43</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, 2000-12-12, tunglaph09448@fpt.edu.vn, 0865235412, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff44()'><b>insertStaff44</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, 2000-12-12, tunglaph09448@fpt.edu.vn, , photo, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff45()'><b>insertStaff45</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, , 2000-12-12, tunglaph09448@fpt.edu.vn, 0985123654, photo, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff46()'><b>insertStaff46</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, , tunglaph09448@fpt.edu.vn, 0985123654, photo, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff47()'><b>insertStaff47</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, 2000-12-12, tunglaph09448@fpt.edu.vn, 0985123654, photo, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff48()'><b>insertStaff48</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: L001, Le Anh Tung, 2000-12-12, tunglaph09448@fpt.edu.vn, , photo, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff5()'><b>insertStaff5</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , , tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff6()'><b>insertStaff6</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , , tunglaph09448@fpt.edu.vn, 0987654345, , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff7()'><b>insertStaff7</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: , , , tunglaph09448@fpt.edu.vn, , 3.jpg, false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff8()'><b>insertStaff8</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: M001, Le Anh Tung, , tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+<tr>
+<td title='UnitTest.StaffDAOTest.insertStaff9()'><b>insertStaff9</b><br>Test class: UnitTest.StaffDAOTest<br>Parameters: M001, , 2000-12-12, tunglaph09448@fpt.edu.vn, , , false</td>
+<td></td>
+<td>0</td>
+<td>UnitTest.StaffDAOTest@1677d1</td></tr>
+</table><p>
+</body>
+</html>

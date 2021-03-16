@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [createSalary]">
+  <test thread-count="5" name="Add_18(failed)">
+    <parameter name="salary_factor" value="10"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="basic_salary" value="tung"/>
+    <parameter name="allowance" value="10"/>
+    <parameter name="id" value="tunganhle"/>
+    <classes>
+      <class name="UnitTest.SalaryDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDown"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="insertSalary"/>
+          <include name="setUpBeforeClass"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </classes>
+  </test> <!-- Add_18(failed) -->
+  <test thread-count="5" name="Add_19(failed)">
+    <parameter name="salary_factor" value="tung"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="basic_salary" value="10"/>
+    <parameter name="allowance" value="10"/>
+    <parameter name="id" value="tunganhle"/>
+    <classes>
+      <class name="UnitTest.SalaryDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDown"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="insertSalary"/>
+          <include name="setUpBeforeClass"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </classes>
+  </test> <!-- Add_19(failed) -->
+  <test thread-count="5" name="Add_20(failed)">
+    <parameter name="salary_factor" value="10"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="basic_salary" value="10"/>
+    <parameter name="allowance" value="tung"/>
+    <parameter name="id" value="tunganhle"/>
+    <classes>
+      <class name="UnitTest.SalaryDAOTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDown"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="insertSalary"/>
+          <include name="setUpBeforeClass"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- UnitTest.SalaryDAOTest -->
+    </classes>
+  </test> <!-- Add_20(failed) -->
+</suite> <!-- Failed suite [createSalary] -->

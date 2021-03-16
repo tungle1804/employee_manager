@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<suite name="createStaff" verbose="1">
+		<test name="InsertStaff">
+			<classes>
+				<class name="UnitTest.StaffDAOTest"></class>
+			</classes>
+		</test>
+		
+		
+	</suite>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutoTest]">
+  <test thread-count="5" name="AddStaff(failed)">
+    <classes>
+      <class name="AutomationTest.BirthdayTest">
+        <methods>
+          <include name="Add_45"/>
+          <include name="Add_42"/>
+          <include name="Add_43"/>
+          <include name="Add_44"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Add_38"/>
+          <include name="beforeClass"/>
+          <include name="Add_46"/>
+          <include name="Add_36"/>
+          <include name="Add_37"/>
+          <include name="Add_41"/>
+          <include name="Add_39"/>
+        </methods>
+      </class> <!-- AutomationTest.BirthdayTest -->
+      <class name="AutomationTest.NameTest">
+        <methods>
+          <include name="Add_18"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="Add_33"/>
+          <include name="Add_34"/>
+          <include name="Add_31"/>
+          <include name="afterMethod"/>
+          <include name="Add_32"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- AutomationTest.NameTest -->
+      <class name="AutomationTest.PhoneTest">
+        <methods>
+          <include name="Add_90"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- AutomationTest.PhoneTest -->
+    </classes>
+  </test> <!-- AddStaff(failed) -->
+</suite> <!-- Failed suite [AutoTest] -->

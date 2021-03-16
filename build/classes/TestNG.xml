@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="allSuites">
+  <suite-files>
+     <suite-file path="AutoTestNG.xml" /> 
+   <suite-file path="SuiteDepartment.xml" />
+    <suite-file path="SuiteStaff.xml" />
+    <suite-file path="SuiteUser.xml" />
+  <suite-file path="SuiteRecord.xml" />
+         <suite-file path="SuiteSalary.xml" /> 
+          <suite-file path="SuiteUpdateUser.xml" /> 
+               <suite-file path="SuiteDeleteDepartment.xml" /> 
+                  <suite-file path="SuiteDependent.xml" /> 
+        
+  </suite-files>
+</suite>

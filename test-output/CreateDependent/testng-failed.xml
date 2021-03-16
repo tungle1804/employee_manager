@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CreateDependent]">
+  <test thread-count="5" name="Add_03(failed)">
+    <parameter name="birthday" value="12-12-2000"/>
+    <parameter name="codeID" value="M001"/>
+    <parameter name="expected" value="false"/>
+    <parameter name="name" value="Le Anh Tung"/>
+    <parameter name="relationship" value="father"/>
+    <classes>
+      <class name="UnitTest.DependentDAOTest">
+        <methods>
+          <include name="insertStaff" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="tearDown"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- UnitTest.DependentDAOTest -->
+    </classes>
+  </test> <!-- Add_03(failed) -->
+</suite> <!-- Failed suite [CreateDependent] -->
