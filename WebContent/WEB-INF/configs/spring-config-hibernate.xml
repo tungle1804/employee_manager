@@ -40,5 +40,7 @@
        		p:sessionFactory-ref="sessionFactory" />
     <tx:annotation-driven transaction-manager="transactionManager" />
     <context:component-scan base-package="poly.*" />
+<context:component-scan base-package="poly.*" />
+<context:component-scan base-package="poly.*" />
    
 </beans>
